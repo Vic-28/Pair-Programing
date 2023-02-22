@@ -1,0 +1,15 @@
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\bin\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).exe
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\bin\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).deps.json
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\bin\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).runtimeconfig.json
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\bin\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).dll
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\bin\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).pdb
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).csproj.AssemblyReference.cache
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).AssemblyInfoInputs.cache
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).AssemblyInfo.cs
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).csproj.CoreCompileInputs.cache
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).dll
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\refint\Pair Programin de 3 (Dario,Alberto).dll
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).pdb
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\Pair Programin de 3 (Dario,Alberto).genruntimeconfig.cache
+D:\OneDrive\Documentos\1º DAW\PRO\Visual Comunity\Pair Programin de 3 (Dario,Alberto)\Pair Programin de 3 (Dario,Alberto)\obj\Debug\net6.0\ref\Pair Programin de 3 (Dario,Alberto).dll
