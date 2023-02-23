@@ -51,6 +51,7 @@ namespace Ejercicio3
                 foreach (var linea in lineas)
                 {
                     var valores = linea.Split(',');
+                    int mesIndex = 0;
 
                     for (int i = 3; i < lineas.Length; i++)
                     {
@@ -63,7 +64,23 @@ namespace Ejercicio3
                             }
 
                             for (int k = 0; k < meses.Length; k++)
-                                Escritura.WriteLine((año++) + ";" + meses[k] + ";" + valores[3] + ";" + CantPalmas);
+                            {
+                                if (año > 2018)
+                                {
+                                    Escritura.Close();
+                                    break;
+                                }
+                                else
+                                {
+                                    Escritura.WriteLine((año) + ";" + meses[mesIndex++] + ";" + valores[3] + ";" + CantPalmas);
+
+                                    if (mesIndex == 12)
+                                    {
+                                        mesIndex = 0;
+                                        año++;
+                                    }
+                                }
+                            }
                         }
                         if (valores[i].Contains("Tenerife"))
                         {
@@ -74,14 +91,29 @@ namespace Ejercicio3
                             }
 
                             for (int k = 0; k < meses.Length; k++)
-                                Escritura.WriteLine((año++) + ";" + meses[k] + ";" + valores[3] + ";" + CantTenerife);
+                            {
+                                if (año>2018)
+                                {
+                                    Escritura.Close();
+                                    break;
+                                }
+                                else
+                                {
+                                    Escritura.WriteLine((año) + ";" + meses[mesIndex++] + ";" + valores[3] + ";" + CantTenerife);
+
+                                    if (mesIndex == 12)
+                                    {
+                                        mesIndex = 0;
+                                        año++;
+                                    }
+                                }
+                            }
                         }
                     }
-
                 }
             }
-            catch(Exception ex) 
-            { 
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
             }
         
