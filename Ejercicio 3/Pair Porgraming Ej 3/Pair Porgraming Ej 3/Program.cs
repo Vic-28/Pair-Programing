@@ -13,8 +13,11 @@ namespace Ejercicio3
 
         static void Main(string[] args)
         {
-
-
+                int CantPalmas = 0;
+                int CantTenerife = 0;
+                int aux = 0;
+                int añoPalmas = 2008;
+                int añoTenerife = 2008;
 
             //crear salida
             
@@ -36,22 +39,20 @@ namespace Ejercicio3
             }
 
             StreamWriter Escritura=null;
+
             try
             {
                 Escritura = new StreamWriter(SalidaFICH);
                 Console.Clear();
                 Escritura.WriteLine("AÑO;MES;MUNICIPIO;DATOS");
-                int CantPalmas = 0;
-                int CantTenerife = 0;
-                int aux = 0;
-                int año = 2008;
+                
                 string[] lineas = File.ReadAllLines("paro.csv");
                 string[] meses = { "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviemrbe", "diciembre" };
 
                 foreach (var linea in lineas)
                 {
                     var valores = linea.Split(',');
-                    int mesIndex = 0;
+                    int mesPos = 0;
 
                     for (int i = 3; i < lineas.Length; i++)
                     {
@@ -65,19 +66,19 @@ namespace Ejercicio3
 
                             for (int k = 0; k < meses.Length; k++)
                             {
-                                if (año > 2018)
+                                if (añoPalmas > 2018)
                                 {
-                                    Escritura.Close();
+                                   
                                     break;
                                 }
                                 else
                                 {
-                                    Escritura.WriteLine((año) + ";" + meses[mesIndex++] + ";" + valores[3] + ";" + CantPalmas);
+                                    Escritura.WriteLine((añoPalmas) + ";" + meses[mesPos++] + ";" + valores[3] + ";" + CantPalmas);
 
-                                    if (mesIndex == 12)
+                                    if (mesPos == 12)
                                     {
-                                        mesIndex = 0;
-                                        año++;
+                                        mesPos = 0;
+                                        añoPalmas++;
                                     }
                                 }
                             }
@@ -92,19 +93,19 @@ namespace Ejercicio3
 
                             for (int k = 0; k < meses.Length; k++)
                             {
-                                if (año>2018)
+                                if (añoTenerife>2018)
                                 {
                                     Escritura.Close();
                                     break;
                                 }
                                 else
                                 {
-                                    Escritura.WriteLine((año) + ";" + meses[mesIndex++] + ";" + valores[3] + ";" + CantTenerife);
+                                    Escritura.WriteLine((añoTenerife) + ";" + meses[mesPos++] + ";" + valores[3] + ";" + CantTenerife);
 
-                                    if (mesIndex == 12)
+                                    if (mesPos == 12)
                                     {
-                                        mesIndex = 0;
-                                        año++;
+                                        mesPos = 0;
+                                        añoTenerife++;
                                     }
                                 }
                             }
